@@ -1,0 +1,9 @@
+#nature{
+    position:fixed;
+    right:10px;
+    height:100px;
+    width:100px;
+    background-image:url("nature.png");
+    background-size:cover;
+    top:10px;
+}

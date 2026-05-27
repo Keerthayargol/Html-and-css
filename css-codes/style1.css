@@ -1,0 +1,55 @@
+.Navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+#outer{
+    height: 400px;
+    width:400px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#inner{
+    height:100px;
+    width: 100px;;
+    background-color: red;
+}
+
+#one{
+    height: 50px;
+    width:50px;
+    background-color: chocolate;
+    
+}
+
+@media(max-width:300px) {
+    #one{
+        background-color: green;
+    }
+}
+@media(min-width:300px)and (max-width:400px){
+    #one{
+        background-color: pink;
+    }
+}
+@media(min-width:400px)and (max-width:600px){
+    #one{
+        background-color: red;
+    }
+}
+@media(min-width:600px) {
+    #one{
+        background-color: blue;
+    }
+}
